@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.class-titulo-website {
+    font-size: 28px;
+    text-align: center;
+    background-color: rgb(180, 194, 198);
+    width: 850px;
+    padding: 70;
+}
+
+#location {
+    color: rgb(12, 117, 237);
+}
+
+#titulo {
+    color: rgb(90, 90, 94);
+    text-align: initial;
+    margin-left: 10px;
+
+}
+
+#imagem {
+    border-radius: 30px;
+    margin-left: 10px;
+    align-items: center;
+    padding: 50px;
+}
+
+#borda {
+    background-color: azure;
+    border-radius: 13px;
+    padding: 30px;
+    align-items: center;
+}
