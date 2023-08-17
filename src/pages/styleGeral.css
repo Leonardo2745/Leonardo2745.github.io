@@ -1,0 +1,24 @@
+
+#titulos{
+    color: lightslategrey;
+}
+#corBold{
+    color:lightslategray;
+}
+#linkSemSubl{
+    text-decoration: none;
+    color: rgb(18, 70, 244);
+}
+#estiloFonte{
+    font-family: Arial;
+}
+#fundo{
+    background-color:lightcyan;
+    height: 400px;
+}
+#botao{
+height: 50px;
+font-size: 20px;
+color:rgb(86, 97, 112);
+background-color: rgb(238, 228, 224);
+}
