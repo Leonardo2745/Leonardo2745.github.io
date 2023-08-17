@@ -5,7 +5,7 @@ Neste repositório será encontrado arquivos do meu site.
 
 ## O porquê da criação deste site?
 
-Site criado para aplicar elementos aprendidos em sala
+Site criado para aplicar elementos aprendidos em sala.
 
 
 ## Quem você almeja que veja o seu site?
