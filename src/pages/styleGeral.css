@@ -1,0 +1,17 @@
+
+#titulos{
+    color: lightskyblue;
+}
+#corBold{
+    color:rgb(42, 44, 51)
+}
+#linkSemSubl{
+    text-decoration: none;
+    color: rgb(18, 70, 244);
+}
+#estiloFonte{
+    font-family: Arial;
+}
+#fundo{
+    background-color:lightslategray
+}
