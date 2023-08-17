@@ -1,9 +1,16 @@
 
 #titulos{
+<<<<<<< HEAD
     color: lightslategrey;
 }
 #corBold{
     color:lightslategray;
+=======
+    color: lightskyblue;
+}
+#corBold{
+    color:rgb(42, 44, 51)
+>>>>>>> cf18b2a10a50d6fd63dd720ea3c359c1de60151d
 }
 #linkSemSubl{
     text-decoration: none;
@@ -13,6 +20,7 @@
     font-family: Arial;
 }
 #fundo{
+<<<<<<< HEAD
     background-color:lightcyan;
     height: 400px;
 }
@@ -21,4 +29,7 @@ height: 50px;
 font-size: 20px;
 color:rgb(86, 97, 112);
 background-color: rgb(238, 228, 224);
+=======
+    background-color:lightslategray
+>>>>>>> cf18b2a10a50d6fd63dd720ea3c359c1de60151d
 }
