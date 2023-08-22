@@ -1,24 +1,42 @@
+body {
+    padding-top: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
-#titulos{
+#principal {
+    margin-top: 130px;
     color: lightslategrey;
 }
-#corBold{
-    color:lightslategray;
+
+#titulos {
+    color: lightslategrey;
 }
-#linkSemSubl{
+
+#corBold {
+    color: #789;
+}
+
+#linkSemSubl {
     text-decoration: none;
-    color: rgb(18, 70, 244);
+    color: rgba(18, 70, 244, 1);
 }
-#estiloFonte{
+
+#estiloFonte {
     font-family: Arial;
 }
-#fundo{
-    background-color:lightcyan;
-    height: 400px;
+
+#fundo {
+    background-color: lightcyan;
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
 }
-#botao{
-height: 50px;
-font-size: 20px;
-color:rgb(86, 97, 112);
-background-color: rgb(238, 228, 224);
+
+#botao {
+    height: 50px;
+    font-size: 20px;
+    color: rgb(86, 97, 112);
+    background-color: rgb(238, 228, 224);
 }
