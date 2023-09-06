@@ -2,22 +2,84 @@
 <html>
 
 <head>
-    <title> Leonardo</title>
-    <link rel="stylesheet" href="./pages/styleGeral.css">
-    <link rel="stylesheet" href="./pages/style-pages.css">
-    <link rel="stylesheet" href="./pages/artigos.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Leonardo Augusto </title>
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
-<body id="estiloFonte" ;>
-    <div id="fundo">
-        <h1 id="principal">
-            Olá!! Seja bem-vindo ao meu site, para saber mais aperte um dos botões abaixo que você será encaminhado !!
-        </h1>
-        <a href="./pages/sobremim.html"><button id="botao">Sobre Mim</button></a>
-        <a href="./pages/objetivos.html"><button id="botao">Objetivos</button></a>
-        <a href="./pages/artigos.html"><button id="botao">Artigos</button></a>
+<body>
+    <!-- HEADER -->
+    <header class="card">
+        <nav class="nav-items">
+            <a class="button to-left padding-large" href="./src/pages/sobremim.html"><strong > <img src="./src/img/images.png"></strong></a>
+            <a class="button to-right padding-large" href="#sobre">SOBRE</a>
+            <a class="button to-right padding-large" href="#projetos">PROJETOS</a>
+            <a class="button to-right padding-large" href="#artigos">ARTIGOS</a>
+            <a class="button to-right padding-large" href="#contato">CONTATO</a>
+        </nav>
+    </header>
+    <div id="inicio" class="content">
+        <section id="sobre" class="container content center padding-64">
+            <h2 class="wide">SOBRE</h2>
+            <p class="opacity"><i>Tenho interesse em coisas da área da informática</i></p>
+            <p class="justify center">
+                Olá! Eu me chamo Leonardo, tenho 18 anos e moro na cidade de <a href="https://goo.gl/maps/GnwY9bLHJ3W8nKsE7" ; id="linkSemSubl">  São Gonçalo do Rio Abaixo </a> e quero fazer parte da área programação!
+            </p>
+            <p>Para acessar meus dados clique na logo do site.</p>
+        </section>
+        <section id="projetos" class="container content center padding-64 black-ground">
+            <h2 class="wide">PROJETOS</h2>
+            <div class="card-container">
+                <div class="cardBox">
+                    <h2>App Inventor</h2>
+                    <p>Meus projetos para celular</p>
+                    <a class="btn-card" type="button" href="https://github.com/Leonardo2745/App-Inventor/releases/tag/v1.2">Click here</a>
+                </div>
+                <div class="cardBox">
+                    <h2>Meu GitHub</h2>
+                    <p>Meu repositório no GitHub.</p>
+                    <a class="btn-card" type="button" href="https://github.com/Leonardo2745/App-Inventor">Click here</a>
+                </div>
+            </div>
+        </section>
+        <section id="artigos" class="container content center padding-64">
+            <h2 class="wide">ARTIGOS</h2>
+            <div class="card-container">
+                <div class="cardBox">
+                    <h2>Jogos Mobile</h2>
+                    <p>Clique abaixo para conhecer alguns jogos mobile.</p>
+                    <a class="btn-card" type="button" href="./src/pages/artigosJM.html">Leia Mais</a>
+                </div>
+                <div class="cardBox">
+                    <h2>Aplicativos Recomendados</h2>
+                    <p>Clique abaixo para conhecer alguns aplicativos.</p>
+                    <a class="btn-card" type="button" href="./src/pages/artigosAR.html">Leia Mais</a>
+                </div>
+                <div class="cardBox">
+                    <h2>Top Músicas</h2>
+                    <p>Clique abaixo para ouvir as Top Músicas Internacionais!.</p>
+                    <a class="btn-card" type="button" href="./src/pages/artigosTM.html">Leia Mais</a>
+                     
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="container content center padding-32 black-ground">
+            <h2 class="wide">CONTATO</h2>
+            <p>
+                <b>WhatsApp:</b> (31) 98347-4108
+            </p>
+            <p>
+                <b>Email:</b> leonardoaugustodiascardosoc@gmail.com
+            </p>
+            <p>
+                <b>GitHub: </b> <a href="https://github.com/Leonardo2745" ; id="linkSemSubl">  Click here </a>
+            </p>
+        </section>
     </div>
+    <footer class="container content center">
+        <p class="center opacity wide"> By Leonardo Augusto </p>
+    </footer>
 </body>
-
 
 </html>
