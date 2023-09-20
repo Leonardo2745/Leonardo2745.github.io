@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Leonardo Augusto </title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
+
+<body id="bodyAll">
     <!-- HEADER -->
-    <header class="card">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header class="cardhead">
         <nav class="nav-items">
             <a class="button to-left padding-large" href="./src/pages/sobremim.html"><strong > <img src="./src/img/images.png"></strong></a>
             <a class="button to-right padding-large" href="#sobre">SOBRE</a>
@@ -44,13 +47,9 @@
             </div>
         </section>
         <section id="artigos" class="container content center padding-64">
-            <h2 class="wide">ARTIGOS</h2>
-            <div class="card-container">
-                <div class="cardBox">
-                    <h2>Jogos Mobile</h2>
-                    <p>Clique abaixo para conhecer alguns jogos mobile.</p>
-                    <a class="btn-card" type="button" href="./src/pages/artigosJM.html">Leia Mais</a>
-                </div>
+             <h2 class="wide">ARTIGOS</h2> 
+            <!--<div class="card-container">
+               
                 <div class="cardBox">
                     <h2>Aplicativos Recomendados</h2>
                     <p>Clique abaixo para conhecer alguns aplicativos.</p>
@@ -62,7 +61,58 @@
                     <a class="btn-card" type="button" href="./src/pages/artigosTM.html">Leia Mais</a>
                      
                 </div>
-            </div>
+            </div>-->
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card-container">
+
+                        <div class="cardBox">
+                            <h2>Jogos Mobile</h2>
+                            <p>Clique abaixo para conhecer alguns jogos mobile.</p>
+                            <a class="btn-card" type="button" href="./src/pages/artigosJM.html">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item">
+                      <div class="card-container">
+                    <div class="cardBox">
+                        <h2>Aplicativos</h2>
+                        <p>Clique abaixo para conhecer alguns aplicativos.</p>
+                        <a class="btn-card" type="button" href="./src/pages/artigosAR.html">Leia Mais</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                        <div class="card-container">
+                        <div class="cardBox">
+                            <h2>Top Músicas</h2>
+                            <p>Clique abaixo para ouvir as Top Músicas Internacionais!.</p>
+                         
+                            <a class="btn-card" type="button" href="./src/pages/artigosTM.html">Leia Mais</a>
+                            
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
         </section>
         <section id="contato" class="container content center padding-32 black-ground">
             <h2 class="wide">CONTATO</h2>
