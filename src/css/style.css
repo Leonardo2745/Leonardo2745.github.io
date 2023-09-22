@@ -32,7 +32,7 @@ nav {
     box-sizing: inherit;
     height: 55px;
 }
-img{
+.imgLogo{
     height: 40px;
     border-radius: 100%;
     
@@ -161,7 +161,12 @@ section p.justify{
     background-color: gainsboro;
     font-size: 15px;
     height: 100%;
+    align-items: center;
   }
+
+ 
+
+  
 
   .cardBox {
     background-color: #b6b1b1;
