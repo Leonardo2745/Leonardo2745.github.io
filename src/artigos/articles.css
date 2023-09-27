@@ -120,3 +120,26 @@ section.cardBox {
     color:black;
     font-size: 28px;
 }
+#imgFundo1{
+    background-image: url(../img/624991.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+
+}
+#imgFundo2{
+    background-image: url(../img/blog-4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(254, 254, 254);
+    
+
+}
+#imgFundo3{
+    background-image: url(../img/imagesom.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(81, 243, 237);
+
+}
