@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1>Atividade 1</h1>
+   
+   <p>Insira sua idade</p>
+    <input type="text" id="idade">
+
+<button onclick="compararIdd()">Comparar Idade</button>
+
+    <p id="comparacao"></p>
+
+    <script>
+
+        function compararIdd(){
+            let idade = document.getElementById('idade').value;
+         if(idade < 18){
+            document.getElementById("comparacao").innerText = "Você é menor de idade";
+        }
+        else if (idade >= 18 && idade <= 60){
+            document.getElementById("comparacao").innerText = "Você é adulto";
+        }
+        else {
+            document.getElementById("comparacao").innerText = "Você é idoso";
+        }  
+
+        }
+
+    </script>
+        
+        <h1>Atividade 2</h1>
+
+        <p>Insira um número</p>
+
+        <input type="number" id="num1">
+
+        <input type="number" id="num2">
+
+        <button onclick="compararNum()">Comparar Num.</button>
+        
+            <p id="comparacaoNum"></p>
+
+    <script>
+
+function compararNum(){
+            let num1 = document.getElementById('num1').value;
+            let num2 = document.getElementById('num2').value;
+
+         if(num1 > num2){
+            document.getElementById("comparacaoNum").innerText = num1 + " é maior que " + num2;
+        } else if(num1 < num2){
+            document.getElementById("comparacaoNum").innerText = num2 + " é maior que " + num1;
+        }
+        else{
+            document.getElementById("comparacaoNum").innerText = "Os números são iguais";
+        }
+       
+
+    }
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
