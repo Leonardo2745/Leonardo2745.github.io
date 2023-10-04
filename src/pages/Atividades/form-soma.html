@@ -156,16 +156,34 @@ function fatorial(){
         resultFat = resultFat * i;
         document.getElementById('fatori').innerHTML += numF + " * " + i + " = " + resultFat + "<br>";
     }
+}
+ </script>
 
+<h1>Atividade 7: Contagem regressiva</h1>
    
+<p>Insira um número:</p>
+ <input type="number" id="regresN">
+
+<button onclick="regressiva()">Contagem Regressiva</button>
+
+ <p id="regressiv"></p>
+
+
+<script>
+
+function regressiva(){
+    let numRE = document.getElementById('regresN').value
+    let resultFat = 0;
+
+    document.getElementById('regressiv').innerHTML =  " "
+    while (resultFat != 1){
+    resultFat = numRE --
+    document.getElementById('regressiv').innerHTML += resultFat + " . "
+    }
 
 }
 
-
- </script>
-
-
-
+</script>
 
 
 
