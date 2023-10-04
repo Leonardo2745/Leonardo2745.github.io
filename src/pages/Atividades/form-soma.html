@@ -137,6 +137,38 @@ else{
 
 </script>
 
+<h1>Atividade 6: Fatorial</h1>
+   
+<p>Insira um número:</p>
+ <input type="number" id="fat">
+
+<button onclick="fatorial()">Calcular fatorial</button>
+
+ <p id="fatori"></p>
+
+ <script>
+
+function fatorial(){
+    let numF = document.getElementById('fat').value
+    let resultFat = numF;
+
+    for(let i = 1; i < numF; i++){
+        resultFat = resultFat * i;
+        document.getElementById('fatori').innerHTML += numF + " * " + i + " = " + resultFat + "<br>";
+    }
+
+   
+
+}
+
+
+ </script>
+
+
+
+
+
+
 
 </body>
 </html>
