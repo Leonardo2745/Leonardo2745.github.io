@@ -7,9 +7,11 @@
 </head>
 <body>
    
-    <h1>Atividade 1</h1>
+    
+    
+    <h1>Atividade 1: Verificação de idade</h1>
    
-   <p>Insira sua idade</p>
+   <p>Insira sua idade:</p>
     <input type="text" id="idade">
 
 <button onclick="compararIdd()">Comparar Idade</button>
@@ -31,14 +33,18 @@
         }  
 
         }
-
     </script>
         
-        <h1>Atividade 2</h1>
+      
+      
+      
+        <h1>Atividade 2: Comparar Números</h1>
 
-        <p>Insira um número</p>
+        <p>Insira um número:</p>
 
         <input type="number'" id="num1">
+
+        <p>Insira outro número:</p>
 
         <input type="number" id="num2">
 
@@ -60,19 +66,67 @@ function compararNum(){
         else{
             document.getElementById("comparacaoNum").innerText = "Os números são iguais";
         }
-       
 
     }
 
-
-
-
-
-
-
-
-
-
     </script>
+
+
+
+
+
+<h1>Atividade 3: Verificar se é divisível</h1>
+
+<p>Insira um número:</p>
+
+<input type="number'" id="numX">
+
+<p>Insira outro número:</p>
+
+<input type="number" id="numY">
+
+<button onclick="veriDivis()">Verificar Div.</button>
+
+    <p id="verificarDivisao"></p>
+
+
+<script>
+    
+function veriDivis(){
+            let numX = parseFloat(document.getElementById('numX').value)
+            let numY = parseFloat(document.getElementById('numY').value)
+            let divis = numX % numY;
+
+if(divis === 0){
+    document.getElementById("verificarDivisao").innerText = numX + " é divisível por " + numY;
+}
+else{
+    document.getElementById("verificarDivisao").innerText = numX + " não é divisível por " + numY;
+}
+
+
+}
+
+</script>
+
+<h1>Atividade 4: Verificação de temperatura</h1>
+   
+<p>Insira a temperatura:</p>
+ <input type="text" id="temperatura">
+
+<button onclick="verificarT()">Verificar temperatura</button>
+
+ <p id="temp"></p>
+
+<script>
+    let t = document.getElementById
+
+
+
+
+
+</script>
+
+
 </body>
 </html>
