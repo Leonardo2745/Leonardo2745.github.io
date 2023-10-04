@@ -112,18 +112,28 @@ else{
 <h1>Atividade 4: Verificação de temperatura</h1>
    
 <p>Insira a temperatura:</p>
- <input type="text" id="temperatura">
+ <input type="number" id="temperatura">
 
 <button onclick="verificarT()">Verificar temperatura</button>
 
  <p id="temp"></p>
 
 <script>
-    let t = document.getElementById
+  
+  function verificarT(){
+   let t = document.getElementById('temperatura').value;
 
+    if(t <= 17.9){
+            document.getElementById('temp').innerText = "O clima está frio";
+        }
+        else if (t <= 26.9 && t >= 18){
+            document.getElementById('temp').innerText = "O clima está normal";
+        }
+        else {
+            document.getElementById("temp").innerText = "O clima está quente";
+        }  
 
-
-
+    }
 
 </script>
 
