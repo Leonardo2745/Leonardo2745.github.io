@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    
+    <title>Document</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<body>
+
+
+    <div class="row">
+        <div class="col-4">
+
+        
+            <h4>Atividade nº 5</h4>
+            <div class="row-cols-4" id="materia1">
+                <div class="col">
+                    <label for="nomeUsuario">Nome do aluno</label>
+                    <input type="text" id="nomeUsuario">
+                </div>
+                <div class="col">
+                    <label for="nomeInstituicao">Escola/Instituicao</label>
+                    <input type="text" id="nomeInstituicao">
+                </div>
+                <div class="col">
+                    <label for="nomeCurso">Curso</label>
+                    <input type="text" id="nomeCurso">
+                </div>
+                <div class="col-2 p-md-4">
+                    <label for="nomeMateria">Matéria</label>
+                    <input type="text" id="nomeMateria">
+                </div>
+                <div class="col-2 p-md-4 input-group">
+                    <input type="number">
+                    <input type="number">
+                    <input type="number">
+                    <input type="number">
+                </div>
+            </div>
+            <button onclick="save()">Verificar Notas</button>
+            <p class="m-3 p-2" id="resultNotas"></p>
+           
+        </div>
+    </div>
+    <script>
+        let materia = { id: 0, nome: "", notas: [], total: 0, printInfo: "" };
+let materias = [];
+let user = {nome: "",instituicao:"", curso:""};
+function save() {
+    let inputNotas = [];
+    let totalNotas = 0;
+    user.nome = nomeUsuario.value;
+    user.instituicao = nomeInstituicao.value;
+    user.curso = nomeCurso.value;
+    let resultados = `<b>BOLETIM DE: ${user.nome.toLocaleUpperCase()}</b><br><b>INSTITUIÇÃO/ESCOLA: ${user.instituicao.toLocaleUpperCase()} </b><br><b>CURSO: ${user.curso.toLocaleUpperCase()} </b>`;
+
+    document.querySelectorAll("div.input-group input").forEach(e => {
+        inputNotas.push(parseFloat(e.value))
+        totalNotas += parseFloat(e.value);
+    })
+
+    materias.push(
+        {
+            id: materia.id++,
+            nome: nomeMateria.value.toLocaleUpperCase(),
+            notas: inputNotas,
+            total: totalNotas,
+            info: `<hr>
+                    RESULTADO DE: <b>${nomeMateria.value.toLocaleUpperCase()}</b> 
+                    <ul class="list-group">
+                        <li class="list-group-item"><b>1º Bimestre:</b> ${inputNotas[0]}</li>
+                        <li class="list-group-item"><b>2º Bimestre:</b> ${inputNotas[1]}</li>
+                        <li class="list-group-item"><b>3º Bimestre:</b> ${inputNotas[2]}</li>
+                        <li class="list-group-item"><b>4º Bimestre:</b> ${inputNotas[3]}</li>
+                        <li class="list-group-item">TOTAL FINAL: <b>${totalNotas}</b></li>
+                        <li class="list-group-item">STATUS: <b>${isAprovadoOuReprovado(totalNotas)}</b></li>
+                    </ul>
+                    `
+        }
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    console.log(materias)
+
+    materias.forEach(e => {
+        resultados += `<br>` + e.info;
+    })
+
+    resultNotas.innerHTML = resultados;
+}
+function isAprovadoOuReprovado(valor) {
+    if (valor >= 60) {
+        return "APROVADO"
+    } else {
+        return "REPROVADO"
+    }
+}
+    </script>
+</body>
+
+</html>
