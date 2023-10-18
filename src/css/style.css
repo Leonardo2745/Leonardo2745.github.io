@@ -154,13 +154,8 @@ section p.justify{
     color: white;
   }
 
-  footer{
-    margin-top: 0;
-    background-color: gainsboro;
-    font-size: 15px;
-    height: 100%;
-    align-items: center;
-  }
+
+
 
  
   .cardBoxART{
@@ -247,5 +242,19 @@ section p.justify{
 
  }
 
+ footer{
+    margin-top: 0;
+    background-color: gainsboro;
+    font-size: 15px;
+    height: auto;
+    display: flex;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
 
+  }
 

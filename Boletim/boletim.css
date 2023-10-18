@@ -11,3 +11,15 @@
 #content2{
     display: none;
 }
+
+.esti{
+    background-color: rgb(171, 171, 171); 
+
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100vh;
+   
+}
