@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="../src/css/style.css" />
-    <link rel="stylesheet" href="../src/css/styleGeral.css" />
-    <link rel="stylesheet" href="../src/css/style-pages.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/styleGeral.css" />
+    <link rel="stylesheet" href="../../css/style-pages.css" />
     <link rel="stylesheet" href="../Boletim/boletim.css" />
     <title>Document</title>
   </head>
 
   <header class="cardhead">
     <nav class="nav-items">
-      <a class="button to-left padding-large" href="../src/pages/sobremim.html" ><strong> <img class="imgLogo" src="../src/img/images.png" /></strong ></a>
+      <a class="button to-left padding-large" href="../sobremim.html" ><strong> <img class="imgLogo" src="../../img/images.png" /></strong ></a>
       <a class="button to-right padding-large" href="../index.html">SOBRE</a>
       <a class="button to-right padding-large" href="../index.html">PROJETOS</a>
       <a class="button to-right padding-large" href="../index.html">ARTIGOS</a>
@@ -52,9 +52,9 @@
         </div>
         
         <div id="content2">
-            <div class="row-cols-8 col-2 p-md-4 input-group" style="align-items:center; text-align: center;">
-                <div id="materiasDiv" class="'gap-3">
-                    <div class="card" style="width: 77rem; height: 15em">
+            <div class="row-cols-8 col-2 p-md-4 input-group" style="align-items:center; text-align: center;width: 100%;">
+                <div id="materiasDiv" style="width: 100%; height: 15em" class="'gap-3">
+                    <div class="card" style="width: 100%; height: 15em">
                         <label for="nomMateria">Selecione a matéria e insira as notas</label>
                         <div class="mx-auto p-2" style="width: 200px"></div>
                         <select style="text-align: center;" id="nomMateria"></select>
@@ -72,12 +72,13 @@
                             <label for="bim4">4° Bim.</label>
                             <input type="number" id="bim4" />
                         </ul>
+                      
                         <div>
                             <button onclick="save()">Verificar Notas</button>
                         </div>
                     </div>
                     
-                    <div class=" card" style="width: 77rem; height: 14em; margin-top: 12px; " id="resultNotas"></div>
+                    <div class=" card" style="width: 100%; height: 14em; margin-top: 12px; " id="resultNotas"></div>
                 </div>
               </div>
             </div>

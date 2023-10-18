@@ -53,26 +53,26 @@ function save() {
       nome: nomMateria.value,
       notas: inputNotas,
       total: totalNotas,
-      info: `<table>  <tr>
-      <th>Matéria</th><td>${nomMateria.value}</td>  
+      info: `<table class="table ">  <tr>
+      <th scope="col">Matéria</th><td>${nomMateria.value}</td>  
       </tr>
       <tr>
-      <th>1º Bimestre</th><td> ${inputNotas[0]}</td>  
+      <th scope="col">1º Bimestre</th><td> ${inputNotas[0]}</td>  
       </tr>
       <tr>
-      <th>2º Bimestre</th><td> ${inputNotas[1]}</td>  
+      <th scope="col">2º Bimestre</th><td> ${inputNotas[1]}</td>  
       </tr>
       <tr>
-      <th>3º Bimestre</th><td> ${inputNotas[2]}</td>  
+      <th scope="col">3º Bimestre</th><td> ${inputNotas[2]}</td>  
       </tr>
       <tr>
-      <th>4º Bimestre</th><td> ${inputNotas[3]}</td>  
+      <th scope="col">4º Bimestre</th><td> ${inputNotas[3]}</td>  
       </tr>
       <tr>
-      <th>Total Notas: </th><td> ${totalNotas}</td>  
+      <th scope="col">Total Notas: </th><td> ${totalNotas}</td>  
       </tr>
       <tr>
-      <th>Status: </th><td>${isAprovadoOuReprovado(totalNotas)}</td>  
+      <th scope="col">Status: </th><td>${isAprovadoOuReprovado(totalNotas)}</td>  
       </tr>
                   
                   </table>
