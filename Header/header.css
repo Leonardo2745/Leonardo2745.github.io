@@ -1,0 +1,27 @@
+.cardhead {
+    box-shadow: 0 2px 5px 0 rgba(126, 62, 62, 0.16),
+        0 2px 10px 0 rgba(255, 255, 255, 0.12);
+}
+
+.nav-items {
+    padding: 2px 20px;
+    width: auto;
+    border: none;
+    /* outline: 0; */
+}
+
+.button {
+    text-align: center;
+    white-space: normal;
+}
+
+.to-left {
+    float: left !important;
+}
+
+.padding-large {
+    padding: 9px 24px !important;
+}
+.to-right {
+    float: right !important;
+}

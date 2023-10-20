@@ -1,0 +1,6 @@
+function footer(){
+footerSite.innerHTML =`
+`
+
+
+}
