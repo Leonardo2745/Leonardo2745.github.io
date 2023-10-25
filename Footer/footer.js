@@ -1,6 +1,0 @@
-function footer(){
-footerSite.innerHTML =`
-`
-
-
-}
