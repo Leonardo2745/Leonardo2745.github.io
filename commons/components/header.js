@@ -20,7 +20,7 @@ else{
 
 headerSite.innerHTML = `<header class="cardhead">
 <nav class="nav-items">
-    <a class="button to-left padding-large"  href="/src/pages/sobremim.html"><strong > <img class="imgLogo"  src="/src/img/images.png"></strong></a>
+    <a class="button to-left padding-large"  href="/src/pages/sobremim.html"><strong > <img class="imgLogo"  src="/src/img/IMG_20230803_165320_717.jpg"></strong></a>
     <a class="button to-right padding-large" href=${sobre}>SOBRE</a>
     <a class="button to-right padding-large" href=${projetos}>PROJETOS</a>
     <a class="button to-right padding-large" href=${artigos}>ARTIGOS</a>

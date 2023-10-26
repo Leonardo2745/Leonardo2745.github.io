@@ -8,7 +8,7 @@ background-color:#958f8f ;
 
 #principal {
     margin-top: 130px;
-    color: rgb(252, 252, 252);
+    color: rgb(196, 23, 23);
 }
 
 #titulos {
@@ -21,7 +21,7 @@ background-color:#958f8f ;
 
 #linkSemSubl {
     text-decoration: none;
-    color: rgb(13, 89, 112);
+    color: rgb(253, 253, 253);
 }
 
 #estiloFonte {
@@ -40,6 +40,7 @@ background-color:#958f8f ;
     font-size: 20px;
     color: rgb(254, 254, 254);
     background-color: rgb(0, 0, 0);
+    
 }
 #botaoSound{
     height: 50px;
@@ -77,11 +78,40 @@ img{
 #imgProfile{
     height: 200px;
     display: flex;
-    padding-top: 12px;
+    padding: 12px;
+    padding-left: 42%;
+    margin-bottom: 20px;
+    
+    
 }
 #bordaPer{
     background-color: rgb(73, 68, 68);
     border-radius: inherit ;
     height:auto;
-    width: 1100px;
+    width: auto;
+    padding: 20px;
+   
+
+   
 }
+
+#bioDiv{
+    background-color:rgb(171, 171, 171); 
+    border-radius: 12px;
+    padding: 5px;
+    height: auto;
+
+}
+
+#botao-sbm{
+    padding: 22px;
+}
+
+#sbmAlgn{
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+   
+}
+
+
