@@ -34,6 +34,7 @@ setLogin(login){
 getLogin(){
     return this.login;
 }
+            
 
 setSenha(senha){
     this.senha = senha;
