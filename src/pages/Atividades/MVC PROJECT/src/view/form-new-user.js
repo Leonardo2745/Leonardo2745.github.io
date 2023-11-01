@@ -5,6 +5,8 @@ const formNewUser = {
         formTemplate.className = "from-control";
         formTemplate.setAttribute("id","signForm");
         formTemplate.innerHTML = `
+<h3 class= "mt-2 mb-4">Cadastro de novo usuário</h3>
+
         <label for="nome" class="form-label">Nome</label>
         <input class="form-control" type="text" id="nome">
 
@@ -16,7 +18,9 @@ const formNewUser = {
 
         <label for="senha" class="form-label">Senha</label>
         <input class="form-control" type="password" id="senha">
-        `
+
+        <button type="submit" class="btn btn-primary mt-4">Salvar</button>
+        `;
         root.append(formTemplate);  
     },
 toUpdate:()=>{
