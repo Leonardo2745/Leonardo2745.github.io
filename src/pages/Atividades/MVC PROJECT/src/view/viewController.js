@@ -7,9 +7,10 @@ build:()=>{
     resultView.build();
 
 },
+update: (params) => {
+    resultView.update(params)
+},
 
-
-
-}
+};
 
 export {viewController}

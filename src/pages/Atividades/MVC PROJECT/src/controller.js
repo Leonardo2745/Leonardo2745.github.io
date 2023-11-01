@@ -22,3 +22,5 @@ const controller = {
     form.addEventListener("submit", saveData);
   },
 };
+
+export { controller}
