@@ -1,6 +1,4 @@
 class Usuario {
-    
-     
     constructor(nome, idade, login, senha){
      this.nome = nome;
      this.idade = idade;
@@ -14,16 +12,22 @@ class Usuario {
      this.nome = nome;
     }
     getIdade(){
-     return this.login;
+     return this.idade;
     }
-    setIdade(login){
-     this.login = login;
+    setIdade(idade){
+     this.idade = idade;
     }
     getLogin(){
      return this.login;
     }
     setLogin(login){
      this.login = login;
+    }
+    getSenha(){
+     return this.senha;
+    }
+    setSenha(senha){
+     this.senha = senha;
     }
    } 
    export {Usuario}
