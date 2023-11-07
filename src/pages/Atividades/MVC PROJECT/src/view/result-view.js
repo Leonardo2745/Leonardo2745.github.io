@@ -24,7 +24,9 @@ const resultView = {
     const tRBody = document.getElementById("users-result");
     tRBody.innerHTML = ``;
     for (let i = 0; i < params.length; i++) {
-      const newLine = document.createElement("tr")
+      const newLine = document.createElement("tr");
+      newLine.className = 'row-line'
+      newLine.setAttribute('id', `user${i}`)
       newLine.innerHTML = `
         <th scope="row">#${i+1}</th>            
         <td><strong style="color:green">${params[i].getNome()}</strong></td>            
