@@ -40,9 +40,18 @@ const clickEsquerdo = (event) => {
       .getNome()
       .toUpperCase()} será carregado para edição`
   );
-  viewController.updateForm(data[currentId])
+  const confirmUpdate = window.confirm(
+
+    "Você realmente deseja atualizar este usuário?"
+  );
+
+  if(confirmUpdate) {
+    viewController.updateForm(data[currentId])
   submitState = submitType.UPDATE;
   btnSub.innerText = "Update";
+  }
+
+  
 
 };
 //AÇÃO PARA BOTÃO DIREITO
@@ -55,9 +64,19 @@ const clickDireito = (event) => {
         .getNome()
         .toUpperCase()} será deletado`
     );
-    deletUser(currentId);
-    resultView.update(data)
+    
+    const confirmDelet = window.confirm(
+
+      "Você realmente deseja deletar este usuário?"
+    );
+  
+    if(confirmDelet) {
+      deletUser(currentId)
+      resultView.update(data)
+    }
+  
   }
+
 };
 const controller = {
   iniciar: () => {
