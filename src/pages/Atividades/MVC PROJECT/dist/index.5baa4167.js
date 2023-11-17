@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"g0Ers":[function(require,module,exports) {
+})({"adBpN":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -651,7 +651,7 @@ const controller = {
     }
 };
 
-},{"./view/viewController.js":"kwPhY","./model/usuario.model.js":"jiRrF","./view/result-view.js":"3hFNO","@parcel/transformer-js/src/esmodule-helpers.js":"9j3HC"}],"kwPhY":[function(require,module,exports) {
+},{"./view/viewController.js":"kwPhY","./model/usuario.model.js":"jiRrF","./view/result-view.js":"3hFNO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kwPhY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "viewController", ()=>viewController);
@@ -671,7 +671,7 @@ const viewController = {
     }
 };
 
-},{"./form-new-user.js":"2ckeU","./result-view.js":"3hFNO","@parcel/transformer-js/src/esmodule-helpers.js":"9j3HC"}],"2ckeU":[function(require,module,exports) {
+},{"./form-new-user.js":"2ckeU","./result-view.js":"3hFNO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2ckeU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "formNewUser", ()=>formNewUser);
@@ -710,7 +710,7 @@ const formNewUser = {
     }
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"9j3HC"}],"9j3HC":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -723,7 +723,7 @@ exports.defineInteropFlag = function(a) {
 };
 exports.exportAll = function(source, dest) {
     Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
         Object.defineProperty(dest, key, {
             enumerable: true,
             get: function() {
@@ -786,7 +786,7 @@ const resultView = {
     }
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"9j3HC"}],"jiRrF":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jiRrF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Usuario", ()=>Usuario);
@@ -823,6 +823,6 @@ class Usuario {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"9j3HC"}]},["g0Ers","igcvL"], "igcvL", "parcelRequire9ccf")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["adBpN","igcvL"], "igcvL", "parcelRequire9ccf")
 
 //# sourceMappingURL=index.5baa4167.js.map
