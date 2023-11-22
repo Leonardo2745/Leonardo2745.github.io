@@ -9,6 +9,21 @@ const dataService = {
       return[]
     }
   },
+
+ salvarDados: async (novosDados) =>{
+  {
+const response = await fetch('http://localhost:7000/api/save', {
+  method: "POST",
+  headers: {
+    "Content-Type":"application/json",
+  },
+  body: JSON.stringify(novosDados),
+});
+
+
+  }
+ }
+
 };
 
 export { dataService };
