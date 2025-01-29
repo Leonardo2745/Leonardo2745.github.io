@@ -1,0 +1,72 @@
+
+{
+    "name": "leonardocardoso-dev",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "homepage": "https://github.com/Leonardo2745/Leonardo2745.github.io",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "lint": "eslint .",
+      "deploy": "deploy.bat"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.11.4",
+      "@emotion/styled": "^11.11.5",
+      "@fortawesome/free-brands-svg-icons": "^6.5.2",
+      "@fortawesome/free-regular-svg-icons": "^6.5.2",
+      "@fortawesome/free-solid-svg-icons": "^6.5.2",
+      "@fortawesome/react-fontawesome": "^0.2.2",
+      "@mui/icons-material": "^5.15.19",
+      "@mui/material": "^5.15.19",
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^18.0.0",
+      "@types/react": "^18.3.3",
+      "@types/react-dom": "^18.3.0",
+      "gh-pages": "^5.0.0",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-vertical-timeline-component": "^3.6.0",
+      "sass": "^1.77.4",
+      "typescript": "^4.9.5",
+      "web-vitals": "^2.1.4"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.15.0",
+      "@types/react": "^18.3.12",
+      "@types/react-dom": "^18.3.1",
+      "@types/react-vertical-timeline-component": "^3.3.6",
+      "@typescript-eslint/eslint-plugin": "^8.18.0",
+      "@typescript-eslint/parser": "^8.18.0",
+      "@vitejs/plugin-react": "^4.3.4",
+      "eslint": "^9.15.0",
+      "eslint-plugin-react": "^7.37.2",
+      "eslint-plugin-react-hooks": "^5.0.0",
+      "eslint-plugin-react-refresh": "^0.4.14",
+      "globals": "^15.12.0",
+      "vite": "^6.0.1"
+    }
+  }
